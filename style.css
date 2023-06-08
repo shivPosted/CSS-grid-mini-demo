@@ -1,0 +1,45 @@
+.el--1 {
+  background-color: red;
+  grid-column: 1 / -1;
+}
+.el--2 {
+  background-color: green;
+  grid-row: 2 / 5;
+  padding-top: 150px;
+}
+.el--3 {
+  background-color: blue;
+  grid-column: 2 / -1;
+}
+.el--4 {
+  background-color: yellow;
+}
+.el--5 {
+  background-color: yellow;
+}
+.el--6 {
+  background-color: yellow;
+}
+.el--7 {
+  background-color: black;
+  color: #f7f7f7;
+  grid-column: 2 / -1;
+}
+
+.container {
+  display: grid;
+  /*   background-color: #444; */
+  margin: 40px;
+  font-family: sans-serif;
+  font-size: 30px;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 30px;
+  text-align: center;
+}
+
+.grid-item {
+  padding-top: 40px;
+}
